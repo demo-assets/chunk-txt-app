@@ -73,8 +73,8 @@ def save_chunks_to_json(file_path, chunks, output_directory):
     print(f"Chunks have been saved in JSON format to directory: {output_directory}")
 
 # Example usage
-file_path = '/Users/haidar/Desktop/Test/GIOEDP.txt'  # Replace this with your file path
-output_directory = '/Users/haidar/Desktop/Test/json'  # Replace with the desired output directory
+file_path = 'File_Path_Here'  # Replace this with your file path
+output_directory = 'Output_directory_here'  # Replace with the desired output directory
 
 # Run the chunking process
 chunks = chunk_text_file(file_path)
